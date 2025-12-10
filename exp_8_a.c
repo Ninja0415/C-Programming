@@ -14,9 +14,10 @@ int main() {
     printf("Enter string: ");
     gets(str);
 
-    while(str[i] != '\0')
+    while(str[i] != '\0') // "\0" is the last element of the string
         i++;
 
     printf("Length = %d", i);
     return 0;
 }
+
